@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  width: 1770px;
+  /* height: 10000px; */
+  background-color: rgba(205, 205, 211, 0.479);
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 2.3rem;
+}
+/* Class Heading */
+
+.heading {
+  display: flex;
+  /* background-color: blue; */
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.mainspace {
+  max-width: calc(100% - 100px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading ul {
+  display: flex;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.heading ul a {
+  /* margin-right: 40px; */
+  padding: 10px 0px;
+  font-size: 2.5rem;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.heading nav {
+  margin-left: auto;
+}
+
+.heading .imgh {
+  width: 25px;
+  margin-top: 20px;
+}
+
+.btn {
+  /* display: flex */
+  margin-left: 60px;
+  padding: 30px;
+  background-color: orange;
+  border-radius: 35px;
+  margin-top: 20px;
+  color: rgb(76, 79, 202);
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+
+.heading a:hover {
+  color: black;
+  /* font-weight: 600; */
+  text-shadow: 1px 0px 0px;
+}
+
+/* Body 1 left */
+
+.bd1-overall {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+}
+
+.bd1l,
+.bd1r {
+  width: 50%;
+}
+
+.bd1l .img-main {
+  width: 70%;
+  height: 340px;
+  object-fit: cover;
+}
+
+.bd1l .im1 {
+  width: 10px;
+  height: 8px;
+}
+
+.bd1l .sub {
+  display: flex;
+}
+
+.bd1 .bd1l {
+  position: relative;
+}
+
+.bd1 .sub-main {
+  position: absolute;
+  bottom: 20px;
+  right: 120px;
+  border-radius: 30px;
+  background-color: rgba(224, 224, 243, 0.712);
+  padding: 15px 40px;
+}
+
+.bd1l .sub2,
+.bd1l .sub3 {
+  margin-top: 20px;
+}
+
+.bd1l .sub-main p {
+  font-size: 1.3rem;
+}
+
+.bd1l .sub-main .sub {
+  gap: 20px;
+}
+
+/* Body 1 right */
+.bd1r h2 {
+  margin-top: 30px;
+}
+
+.bd1r a {
+  display: inline-block;
+}
+
+.bd1r .btn-students {
+  /* margin: 20px 10px 5px 30px; */
+  margin-top: 15px;
+  margin-left: 0px;
+  text-decoration: none;
+}
+
+.bd1r .btn:hover {
+  color: black;
+}
+
+.bd1r .doan-van1 {
+  margin-top: 20px;
+}
+
+.bd1r strong {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.bd1r .str2 {
+  margin-left: 30px;
+}
+
+/* Info contact */
+.info ul strong {
+  color: rgb(98, 0, 255);
+  font-size: 1.5rem;
+  margin-left: 20px;
+  font-size: 1.5rem;
+}
+
+.info ul strong.facebook {
+  font-size: 2rem;
+}
+
+.info {
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+.cc1 {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.info ul i.fa-facebook {
+  color: blue;
+}
+
+.info ul i.fa-phone-volume {
+  color: rgb(39, 173, 39);
+}
